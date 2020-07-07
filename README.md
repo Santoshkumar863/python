@@ -1,16 +1,24 @@
 # python
 inheritance in python
+
+
+
+
 class user():
     def sign_in(self):
         print('please logged in')
+        
 
 class wizard(user):
     def __init__(self,name,power):
         self.name= name
         self.power= power
+        
 
     def attack(self):
          print(f'attackimg with of {self.power}')
+         
+         
 
 class archer(user):
     def __init__(self,name,num_arrows):
